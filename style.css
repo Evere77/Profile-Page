@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+main {
+    min-height: 50px;
+    width: 600px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    border: 2px solid #cccccc;
+    padding: 30px;
+}
+
+.whole {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+    
+.colorBorder {
+    width: 600px;
+    height: 100px;
+    background-color: #17a2b8;
+    margin-right: 60px;
+    
+}
+
+.button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px;
+    border: 2px black none;
+    cursor: pointer;
+}
+
+.icon1 {
+    width: 15px;
+    height: 20px;
+}
+
+.icon2 {
+    width: 20px;
+    height: 20px;
+}
+
+.choiceIcon {
+    width: 30px;
+}
+
+.profilePic {
+    width: 100px;
+    margin: 40px;
+
+}
+
+.profilePics {
+    width: 50px;
+}
+
+.uglyBorder1 {
+    background-color: #333333;
+    color: white;
+    width: 600px;
+    min-height: 40px;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.uglyBorder2 {
+    background-color: #333333;
+    color: white;
+    width: 300px;
+    min-height: 40px;
+    padding: 20px;
+    margin-right: 60px
+}
+
+.education {
+    border: 2px solid #cccccc;
+    padding: 20px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    width: 600px;
+}
+
+aside, .aside2 {
+    border: 2px solid #cccccc;
+    min-height: 50px;
+    width: 300px;
+    padding: 10px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.conReq {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+.youConn {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 30px;
+}
